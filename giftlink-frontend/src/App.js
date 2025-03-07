@@ -9,7 +9,7 @@ import LoginPage from './components/LoginPage/LoginPage';
 import Profile from './components/Profile/Profile';
 
 function App() {
-
+const navigate = useNavigate();
   return (
     <>
         <Navbar/>
